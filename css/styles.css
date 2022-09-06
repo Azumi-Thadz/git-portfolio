@@ -8,6 +8,13 @@
   --text-black-900:#302e4d;
   --text-black-700:#504e70;
 }
+body.dark{
+  --bg-black-900:#151515;
+  --bg-black-100:#222222;
+  --bg-black-50:#393939;
+  --text-black-900:#ffffff;
+  --text-black-700:#e9e9e9;
+}
 body {
 line-height: 1.5;
 font-size: 16px;
@@ -104,7 +111,7 @@ opacity: 1;
   background: var(--skin-color);
   transition: all 0.3s ease; 
 }
-.btn :hover {
+.btn:hover {
   transform:scale(1.05) ;
 }
 .shadow-dark {
@@ -163,7 +170,7 @@ opacity: 1;
   top: 0;
   right: 0;
 }
-.aside .nav-togler {
+.aside .nav-toggler {
   height: 40px;
   width: 45px;
   border: 1px solid var(--bg-black-50) ;
@@ -177,27 +184,27 @@ opacity: 1;
   align-items:center;
   justify-content: center;
 }
-.aside .nav-togler span {
+.aside .nav-toggler span {
   height: 2px;
   width: 18px;
   background:var(--skin-color);
   display: inline-block;
   position: relative;
 }
-.aside .nav-togler span::before {
+.aside .nav-toggler span::before {
   content: "";
   height: 2px;
   width: 18px;
-  background: var(--skin-color) ;
+  background: var(--skin-color);
   position: absolute;
   top: -6px;
   left: 0;
 }
-.aside .nav-togler span::after {
+.aside .nav-toggler span::after {
   content: "";
   height: 2px;
   width: 18px;
-  background: var(--skin-color) ;
+  background: var(--skin-color);
   position: absolute;
   top: 6px;
   left: 0;
@@ -209,7 +216,7 @@ opacity: 1;
   margin-bottom: 20px ;
   display: block;
 }
-.aside nav li a{
+.aside .nav li a{
   font-size: 16;
   font-weight: 600;
   display: block;
