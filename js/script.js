@@ -69,19 +69,3 @@ const nav = document.querySelector(".nav"),
         allSection[i].classList.toggle("open");
       }
     }
-
-    /* SEnd email*/
-
-    function sendEmail() {
-      Email.send({
-        Host : "smtp.gmail.com",
-        Username : "Thadzbayonito00@gmail.com",
-        Password : "thads6789",
-        To : 'Thadzbayonito00@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact Form Enquiry",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-    }
