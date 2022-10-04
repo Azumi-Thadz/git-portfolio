@@ -75,9 +75,9 @@ const nav = document.querySelector(".nav"),
     function sendEmail() {
       Email.send({
         Host : "smtp.gmail.com",
-        Username : "Thadzbayonito00.gmail.com",
+        Username : "Thadzbayonito00@gmail.com",
         Password : "thads6789",
-        To : 'Thadzbayonito00.gmail.com',
+        To : 'Thadzbayonito00@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Enquiry",
         Body : "And this is the body"
