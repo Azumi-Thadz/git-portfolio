@@ -74,12 +74,12 @@ const nav = document.querySelector(".nav"),
 
     function sendEmail() {
       Email.send({
-        Host : "smtp.yourisp.com",
-        Username : "username",
-        Password : "password",
-        To : 'them@website.com',
-        From : "you@isp.com",
-        Subject : "This is the subject",
+        Host : "smtp.gmail.com",
+        Username : "Thadzbayonito00.gmail.com",
+        Password : "thads6789",
+        To : 'Thadzbayonito00.gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Contact Form Enquiry",
         Body : "And this is the body"
     }).then(
       message => alert(message)
